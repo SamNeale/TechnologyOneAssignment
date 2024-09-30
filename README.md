@@ -64,8 +64,8 @@ For the frontend:
   A full test plan for my submission would include both functional and non-functional tests.
 
   Non-functional tests would include:
-    1. User Acceptance Tests (UAT) to verify that the solution is easily used and not overly confusing for the user.
-    2. Performant and not overly slow to return a result in a predetermined time frame.
+  1. User Acceptance Tests (UAT) to verify that the solution is easily used and not overly confusing for the user.
+  2. Performance tests to ensure the solutions is not overly slow to returns a result in a predetermined time frame.
 
   Functional tests would include:
   
