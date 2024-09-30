@@ -10,7 +10,7 @@ There were a few important assumptions I made that in a workplace I would clarif
 To run my submission:
   1. Clone this repository
   2. Open the backend project in Visual Studio, install the neccesary nuget pacakges, build the project and run it!
-  3. Open the frontend project in Visual Studio code and run the following command 'ng serve'
+  3. Open the frontend project in Visual Studio code and run the following command 'ng serve' in a terminal
   4. Naviagte to http://localhost:4200/
   5. Try out my solution!
 
