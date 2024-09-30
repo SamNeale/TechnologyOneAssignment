@@ -21,7 +21,7 @@ I saw to possible ways to solve this problem:
   2. Converting the floating point number to a string, and then iterating over each character.
 
 I ultimately decided to go with solution 2 for the following reasons:
-  1. It seemed more adaptable in case we had to support negative numbers in the future.
+  1. It seemed more adaptable in case we had to support negative numbers in the future as arthimatic would have to support addition and subtraction.
   2. Intuatively I thought it posed faster performance iterating over a string in O(n) time rather than using arithmatic.
 
 
