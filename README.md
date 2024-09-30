@@ -27,8 +27,8 @@ I ultimately decided to go with solution 2 for the following reasons:
 
 The intuiton for either algorthm hinges on the fact that every 3 digits in a number changes its place value from counting 
 hundreds to thousands to millions to billions, etc. So as we move through the hundreds, thousands, millions, etc. lets 
-work out how many of those hundreds, thousands, millions, etc. we have by counting hundreds. In the case of counting cents,
-we are just counting 2 digits so we are only counting and not quantifying it with hundreds, thousands, millions, etc.
+work out how many of those hundreds, thousands, millions, etc. we have by counting hundreds i.e those counting those 3 digits. 
+In the case of counting cents, we are just counting 2 digits so we are only counting and not quantifying it with hundreds, thousands, millions, etc.
 
 Heres how my algorithm works:
 
