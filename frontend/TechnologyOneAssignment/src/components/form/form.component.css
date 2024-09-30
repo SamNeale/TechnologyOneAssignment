@@ -1,0 +1,15 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-container {
+    display: grid;
+    place-items: center;
+    padding-top: 15%;
+  }
+
+.output-container {
+    padding-top: 50px;
+}

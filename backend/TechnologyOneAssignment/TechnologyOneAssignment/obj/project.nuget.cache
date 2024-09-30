@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "Hz7dYY7WfRZFUA/AyRpav7KSPD4J1MDmYp3hXzH06GR2V9mJK9w1A2Y4kyOvC1iO9ITvc4XiRzECh/c18nf9uw==",
+  "dgSpecHash": "Ga2SPxwCKwrP8EXgIsX6LFkKvpH6X3GlbNTtV6Fidyj7RRBkuZgFZw6TW9WlrUiDHXSYaTTbVt0kkhORfIQwJg==",
   "success": true,
   "projectFilePath": "/Users/SamNeale/Documents/GitHub/TechnologyOneAssignment/backend/TechnologyOneAssignment/TechnologyOneAssignment/TechnologyOneAssignment.csproj",
   "expectedPackageFiles": [
+    "/Users/SamNeale/.nuget/packages/microsoft.aspnetcore.jsonpatch/8.0.8/microsoft.aspnetcore.jsonpatch.8.0.8.nupkg.sha512",
+    "/Users/SamNeale/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/8.0.8/microsoft.aspnetcore.mvc.newtonsoftjson.8.0.8.nupkg.sha512",
+    "/Users/SamNeale/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/SamNeale/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/SamNeale/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/SamNeale/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/SamNeale/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "/Users/SamNeale/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/Users/SamNeale/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/Users/SamNeale/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

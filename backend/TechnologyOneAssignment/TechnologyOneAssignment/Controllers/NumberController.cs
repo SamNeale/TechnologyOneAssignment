@@ -1,8 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TechnologyOneAssignment.Models;
 using TechnologyOneAssignment.Services;
 
 namespace TechnologyOneAssignment
 {
+    [Route("api/number")]
+    [ApiController]
     public class NumberController : Controller
     {
         private readonly INumberService _numberService;
@@ -12,13 +15,14 @@ namespace TechnologyOneAssignment
             _numberService = numberService;
         }
 
-        [HttpPost]
-        public ActionResult<string> PostDouble(decimal number)
+        [HttpGet]
+        public ActionResult<AnswerDTO> GetStringFromNumber([FromQuery] decimal number)
         {
             try
             {
                 var outputString = _numberService.ConvertDoubleToStringOfDollarsAndCents(number);
-                return CreatedAtAction(nameof(PostDouble), outputString);
+                AnswerDTO dto = new AnswerDTO { Text = outputString };
+                return Ok(dto);
             }
             catch (Exception)
             {

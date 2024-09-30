@@ -1,0 +1,18 @@
+<div class="input-container">
+    <div>
+        <label for="number">Please enter a price (2 dp number):</label>
+        <input 
+            id="number"
+            name="number" 
+            type="number" 
+            step=""
+            [(ngModel)]="this.number"
+            required 
+            placeholder="e.g. 400.99"/>
+        <button (click)="onSubmit()">Submit</button>
+    </div>
+    
+    <div class="output-container">
+        {{this.text}}
+    </div>
+</div>

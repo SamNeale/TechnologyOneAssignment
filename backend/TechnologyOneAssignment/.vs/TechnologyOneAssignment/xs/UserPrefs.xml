@@ -1,5 +1,55 @@
 ﻿<Properties StartupConfiguration="{17C7AACE-1071-45C3-A002-6769EBED5CBE}|https">
-  <MonoDevelop.Ide.ItemProperties.TechnologyOneAssignment PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.TechnologyOneAssignment PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.TechnologyOneAssignment.Tests FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TechnologyOneAssignment/Controllers/NumberController.cs">
+    <Files>
+      <File FileName="TechnologyOneAssignment/TechnologyOneAssignment.http" Line="1" Column="1" />
+      <File FileName="TechnologyOneAssignment/appsettings.json" Line="1" Column="1" />
+      <File FileName="TechnologyOneAssignment/Program.cs" Line="25" Column="1" />
+      <File FileName="TechnologyOneAssignment/NumberController.cs" Line="6" Column="17" />
+      <File FileName="TechnologyOneAssignment/Services/INumberToStringService.cs" Line="8" Column="2" />
+      <File FileName="TechnologyOneAssignment.Tests/UnitTest1.cs" Line="74" Column="1" />
+      <File FileName="TechnologyOneAssignment/Constants/NumberConstants.cs" Line="1" Column="1" />
+      <File FileName="TechnologyOneAssignment/Services/NumberService.cs" Line="74" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TechnologyOneAssignment">
+            <Node name="TechnologyOneAssignment">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Constants" expanded="True" />
+              <Node name="Controllers">
+                <Node name="NumberController.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="TechnologyOneAssignment.Tests" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="TechnologyOneAssignment">
+            <Node name="TechnologyOneAssignment.Tests">
+              <Node name="TechnologyOneAssignment.Tests">
+                <Node name="NumberService_ConvertDoubleToStringOfDollarsAndCentsShould">
+                  <Node name="ConvertDoubleToStringOfDollarsAndCents_ValuesOfOnlyCents_ShouldOnlyPrintCents(number: 0.2, expected: &quot;twenty cents&quot;) - 89b21863-d209-f8e6-a693-bec69769e072" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

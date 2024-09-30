@@ -11,6 +11,8 @@
 /Users/SamNeale/Documents/GitHub/TechnologyOneAssignment/backend/TechnologyOneAssignment/TechnologyOneAssignment.Tests/bin/Debug/net8.0/TechnologyOneAssignment.Tests.runtimeconfig.json
 /Users/SamNeale/Documents/GitHub/TechnologyOneAssignment/backend/TechnologyOneAssignment/TechnologyOneAssignment.Tests/bin/Debug/net8.0/TechnologyOneAssignment.Tests.dll
 /Users/SamNeale/Documents/GitHub/TechnologyOneAssignment/backend/TechnologyOneAssignment/TechnologyOneAssignment.Tests/bin/Debug/net8.0/TechnologyOneAssignment.Tests.pdb
+/Users/SamNeale/Documents/GitHub/TechnologyOneAssignment/backend/TechnologyOneAssignment/TechnologyOneAssignment.Tests/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/SamNeale/Documents/GitHub/TechnologyOneAssignment/backend/TechnologyOneAssignment/TechnologyOneAssignment.Tests/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /Users/SamNeale/Documents/GitHub/TechnologyOneAssignment/backend/TechnologyOneAssignment/TechnologyOneAssignment.Tests/bin/Debug/net8.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
 /Users/SamNeale/Documents/GitHub/TechnologyOneAssignment/backend/TechnologyOneAssignment/TechnologyOneAssignment.Tests/bin/Debug/net8.0/Microsoft.OpenApi.dll
 /Users/SamNeale/Documents/GitHub/TechnologyOneAssignment/backend/TechnologyOneAssignment/TechnologyOneAssignment.Tests/bin/Debug/net8.0/Microsoft.TestPlatform.CoreUtilities.dll
@@ -22,6 +24,7 @@
 /Users/SamNeale/Documents/GitHub/TechnologyOneAssignment/backend/TechnologyOneAssignment/TechnologyOneAssignment.Tests/bin/Debug/net8.0/Microsoft.VisualStudio.TestPlatform.Common.dll
 /Users/SamNeale/Documents/GitHub/TechnologyOneAssignment/backend/TechnologyOneAssignment/TechnologyOneAssignment.Tests/bin/Debug/net8.0/testhost.dll
 /Users/SamNeale/Documents/GitHub/TechnologyOneAssignment/backend/TechnologyOneAssignment/TechnologyOneAssignment.Tests/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/SamNeale/Documents/GitHub/TechnologyOneAssignment/backend/TechnologyOneAssignment/TechnologyOneAssignment.Tests/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
 /Users/SamNeale/Documents/GitHub/TechnologyOneAssignment/backend/TechnologyOneAssignment/TechnologyOneAssignment.Tests/bin/Debug/net8.0/NuGet.Frameworks.dll
 /Users/SamNeale/Documents/GitHub/TechnologyOneAssignment/backend/TechnologyOneAssignment/TechnologyOneAssignment.Tests/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/SamNeale/Documents/GitHub/TechnologyOneAssignment/backend/TechnologyOneAssignment/TechnologyOneAssignment.Tests/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll

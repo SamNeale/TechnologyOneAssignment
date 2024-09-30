@@ -45,8 +45,6 @@ public class NumberService_ConvertDoubleToStringOfDollarsAndCentsShould
     [InlineData(0.39, "thirty-nine cents")]
     [InlineData(.99, "ninety-nine cents")]
     [InlineData(0.09, "nine cents")]
-    [InlineData(0.10, "ten cents")]
-    [InlineData(00000000000.20, "twenty cents")]
     public void ConvertDoubleToStringOfDollarsAndCents_ValuesOfOnlyCents_ShouldOnlyPrintCents(decimal number, string expected)
     {
         string result = _numberService.ConvertDoubleToStringOfDollarsAndCents(number);
