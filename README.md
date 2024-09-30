@@ -27,12 +27,14 @@ Test Plan:
     2. Performant and not overly slow to return a result in a predetermined time frame.
 
   Functional tests would include:
-    1. Frontend unit tests in Angular which for the purpose of this assignment have not been included.
-    2. Backend unit tests to test the number conversion functionality covering:
-        a. Cases where a number is only fractional e.g 0.11
-        b. Cases where a number is a whole number and a fraction e.g 1.11
-        c. Cases where large portions of the number are not to be outputted as text e.g. 42,000,000 - only outputs 42 million and does not include 42 million one hundred thousand, etc.
-        d. Error cases where a value is input that is out of range
-        e. Error cases where a value is input that is not a number
+  
+  Frontend unit tests in Angular which for the purpose of this assignment have not been included.
+  
+  Backend unit tests to test the number conversion functionality covering:
+  1. Cases where a number is only fractional e.g 0.11
+  2. Cases where a number is a whole number and a fraction e.g 1.11
+  3. Cases where large portions of the number are not to be outputted as text e.g. 42,000,000 - only outputs 42 million and does not include 42 million one hundred thousand, etc.
+  4. Error cases where a value is input that is out of range
+  5. Error cases where a value is input that is not a number
 
 
