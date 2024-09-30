@@ -39,15 +39,21 @@ Heres how my algorithm works:
        c. when an interval is complete append the stack to the output, reset the stack, and start the next interval.
 
 ## To run my submission:
-  1. Clone this repository
-  2. Navigate to the backend/TechnologyOneAssignment/TechnologyOneAssignment.soln file and open it in Visual Studio.
-  3. Install the neccesary nuget pacakges, build the project, and run it!
-  4. You'll see the Swagger docs for the API running and you'll know its working
-  5. Navigate to the frontend/TechnologyOneAssignment folder and open it in Visual Studio code.
-  6. Open a new terminal in VS code
-  7. Run the following command 'ng serve' 
-  8. Naviagte to http://localhost:4200/
-  9. Try out my solution!
+
+First clone this repository!
+
+For the backend: 
+  1. Navigate to the backend/TechnologyOneAssignment/TechnologyOneAssignment.soln file and open it in Visual Studio.
+  2. Install the neccesary nuget pacakges, build the project, and run it!
+  3. You'll see the Swagger docs for the API running and you'll know its working
+
+For the frontend:
+  1. Navigate to the frontend/TechnologyOneAssignment folder and open it in Visual Studio code.
+  2. Open a new terminal in VS code
+  3. Run the following command 'ng build'
+  4. Run the following command 'ng serve' 
+  5. Naviagte to http://localhost:4200/
+  6. Try out my solution!
 
 ## If you have any issues with the frontend make sure you have installed:
   1. Node.js version 20.17.0
