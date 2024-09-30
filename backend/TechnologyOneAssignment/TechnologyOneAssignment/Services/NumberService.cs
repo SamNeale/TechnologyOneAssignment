@@ -8,7 +8,7 @@ namespace TechnologyOneAssignment.Services
 
         public string ConvertDoubleToStringOfDollarsAndCents(decimal number)
         {
-            number = Math.Round(number, 2);
+            string strNumber = SantizeNumberAndConvertToString(number);
 
             if (number == 0)
             {
@@ -19,7 +19,6 @@ namespace TechnologyOneAssignment.Services
                 return "number out of range (must be between 0 and 1,000,000,000,000)";
             }
 
-            string strNumber = number.ToString();
             int i = strNumber.Length - 1;
             int placeValuesIndex = 0;
             Stack<string> output = new Stack<string>();
@@ -140,6 +139,20 @@ namespace TechnologyOneAssignment.Services
             digits.Reverse();
 
             return digits;
+        }
+
+        private string SantizeNumberAndConvertToString(decimal number)
+        {
+            // Sanitize input
+            number = Math.Round(number, 2);
+            string strNumber = number.ToString();
+
+            if (strNumber.Contains('.') && strNumber[^2].Equals('.')) 
+            {
+                strNumber = strNumber + '0';
+            }
+
+            return strNumber;
         }
     }
 }
