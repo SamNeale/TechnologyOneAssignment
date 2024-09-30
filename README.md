@@ -40,10 +40,14 @@ Heres how my algorithm works:
 
 ## To run my submission:
   1. Clone this repository
-  2. Open the backend project in Visual Studio, install the neccesary nuget pacakges, build the project and run it!
-  3. Open the frontend project in Visual Studio code and run the following command 'ng serve' in a terminal
-  4. Naviagte to http://localhost:4200/
-  5. Try out my solution!
+  2. Navigate to the backend/TechnologyOneAssignment/TechnologyOneAssignment.soln file and open it in Visual Studio.
+  3. Install the neccesary nuget pacakges, build the project, and run it!
+  4. You'll see the Swagger docs for the API running and you'll know its working
+  5. Navigate to the frontend/TechnologyOneAssignment folder and open it in Visual Studio code.
+  6. Open a new terminal in VS code
+  7. Run the following command 'ng serve' 
+  8. Naviagte to http://localhost:4200/
+  9. Try out my solution!
 
 ## If you have any issues with the frontend make sure you have installed:
   1. Node.js version 20.17.0
